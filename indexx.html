@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title></title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h2>BIODATA</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" required />
+        <small class="error" id="errorNama"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="nisn">NIS:</label>
+        <input type="text" id="nis" required />
+        <small class="error" id="errorNisn"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="tempatLahir">Tempat tinggal:</label>
+        <input type="text" id="tempatTinggal" required />
+        <small class="error" id="errorTempatTinggal"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="tanggalLahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggalLahir" required />
+        <small class="error" id="errorTanggalLahir"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="umur">Umur:</label>
+        <input type="number" id="umur" required />
+        <small class="error" id="errorUmur"></small>
+      </div>
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
